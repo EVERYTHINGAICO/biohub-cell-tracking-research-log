@@ -19,6 +19,8 @@ Developmental cell tracking from 3D microscopy time series can be formalized as 
 
 ## Main Result
 
+![Biohub public score trajectory](assets/score_trajectory.svg)
+
 | Stage | Public score / status | Interpretation |
 | --- | ---: | --- |
 | Early rule-based baseline | `0.826` | Valid notebook workflow and baseline graph generation. |
@@ -53,6 +55,8 @@ See [docs/FORMAL_PROBLEM.md](docs/FORMAL_PROBLEM.md).
 
 ## Scientific Contributions of This Archive
 
+![Missing capabilities diagram](assets/missing_capabilities.svg)
+
 This public archive contributes:
 
 - a clear distinction between **model-family ceiling** and **competition ceiling**;
@@ -71,6 +75,7 @@ It does not claim novelty for public Kaggle models created by other authors. See
 | [Methods](docs/METHODS.md) | Method families, metric proxy, and operational constraints. |
 | [Results and Ablations](docs/RESULTS_AND_ABLATIONS.md) | Score progression and interpretation. |
 | [Negative Results](docs/NEGATIVE_RESULTS.md) | Hypothesis, experiment, result, and lesson for failed directions. |
+| [What Was Missing](docs/WHAT_WAS_MISSING.md) | Specific capabilities that separated our July ceiling from later `0.94+` public pipelines. |
 | [Why Later Pipelines Improved](docs/WHY_LATER_PIPELINES_IMPROVED.md) | Scientific explanation for the late jump from `0.896` to `0.944`. |
 | [Threats to Validity](docs/THREATS_TO_VALIDITY.md) | Risks from sparse labels, leaderboard feedback, external assets, and hidden tests. |
 | [Publication Boundaries](docs/PUBLICATION_BOUNDARIES.md) | What is public now vs private until closeout review. |

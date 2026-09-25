@@ -1,0 +1,13 @@
+.env
+*.csv
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.zarr/
+*.geff/
+data/
+outputs/
+models/
+__pycache__/
+.ipynb_checkpoints/

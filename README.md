@@ -4,7 +4,13 @@
 
 This repository summarizes our work on Kaggle's `biohub-cell-tracking-during-development` competition. It is written as a public research log rather than a code dump: the goal is to document the scientific reasoning, failure modes, validation problems, and release boundaries behind a high-performing cell-tracking workflow.
 
-The private engineering archive remains closed until competition closeout review. This public repo does **not** redistribute competition data, active submission code, copied notebooks, generated outputs, model weights, credentials, or private logs.
+This repository is the publication-safe research summary. The fuller technical closeout archive is now public at https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout. This public summary does **not** redistribute competition data, generated outputs, model weights, credentials, or private logs.
+
+## Related Repositories
+
+- **Full technical archive:** https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout
+- **Kaggle notebook:** https://www.kaggle.com/code/pedroapalaciosz/biohub-0-951-deepcenter-fast-ilp
+- **Competition page:** https://www.kaggle.com/competitions/biohub-cell-tracking-during-development
 
 ## Abstract
 

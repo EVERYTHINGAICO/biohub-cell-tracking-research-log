@@ -1,6 +1,6 @@
 # Publication Boundaries
 
-This repo is designed to be safe to publish while preserving a private technical archive.
+This repository is the public narrative for the Biohub project. The [technical closeout archive](https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout) is also public and contains local experiment scripts, metadata, and technical records. They are two views of the same work.
 
 ## Public Now
 
@@ -14,11 +14,14 @@ Safe public content:
 - public scores already visible through Kaggle;
 - links or names of public Kaggle assets.
 
-## Private Until Closeout Review
+## Linked Technical Material
 
-Keep private:
+- Local experiment scripts and technical records are in the closeout archive.
+- The final adapted notebook is linked on Kaggle rather than redistributed in these repositories.
+- Public notebooks, models, and datasets retain their original authorship and terms.
 
-- active submission code;
+## Excluded From These Repositories
+
 - copied notebooks;
 - downloaded Kaggle outputs;
 - model weights;
@@ -28,8 +31,6 @@ Keep private:
 - credentials;
 - raw chat transcripts and operational logs.
 
-## Why
+## Reproducibility Limits
 
-Kaggle competitions have rules around competition code and data redistribution. Publishing a clean research narrative is different from redistributing runnable competition code or data.
-
-After the competition closes, we can review the private archive and decide what to open-source with proper attribution.
+Publication provides access to selected scripts and research records, not a self-contained reproduction of the final submission. Reproduction still depends on access to Kaggle competition data, externally hosted notebooks and model assets, and their runtime requirements. Neither repository currently provides a dependency-pinned environment with an automated end-to-end reproduction.

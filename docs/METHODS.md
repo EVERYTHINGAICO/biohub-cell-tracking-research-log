@@ -1,6 +1,6 @@
 # Methods
 
-This public methods note describes the approach family without redistributing active competition code.
+This public methods note describes the historical approach families. Local experiment scripts are available in the [technical closeout archive](https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout); the final adapted notebook remains linked on Kaggle.
 
 ## Submission Mechanics
 
@@ -43,7 +43,7 @@ Post-processing explored:
 - line-fit smoothing;
 - density-aware geometric gates.
 
-### Late Public-SOTA Adaptation
+### Late Public Notebook Adaptation
 
 Later public notebooks added stronger center priors, independent temporal seeds, division gates, bidirectional fusion, and optimized ILP execution. These methods changed the solution class and produced the final confirmed `0.944` public score for our account.
 

@@ -18,4 +18,4 @@ The available public baseline changed over time. A conclusion that was valid in 
 
 ## Publication Constraints
 
-Because the competition was active, active code and detailed artifacts remain private. That limits the public repo's reproducibility until closeout review.
+This research log is a narrative summary. The [technical closeout archive](https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout) is now public and contains local experiment scripts. The two repositories describe the same work. The final notebook is linked on Kaggle; neither repository includes competition data, model weights, or a dependency-pinned end-to-end reproduction. Source and artifact access therefore limit reproducibility even after publication.

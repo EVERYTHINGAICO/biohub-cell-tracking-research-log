@@ -17,7 +17,7 @@ The project was informed by public work around:
 - harmonic/bidirectional fusion;
 - density-adaptive post-processing.
 
-Specific public Kaggle notebooks and datasets are named in the private technical archive and should be reviewed for license/provenance before any runnable code is released.
+Specific public Kaggle notebooks and datasets are named in the [public technical archive's attribution record](https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout/blob/main/docs/ATTRIBUTION.md). Its local scripts and this summary document the same project. The final submission builds on those community assets; our local work includes experiments, metric reconstruction, adaptation, validation, and documentation.
 
 ## Original Public Contribution Here
 

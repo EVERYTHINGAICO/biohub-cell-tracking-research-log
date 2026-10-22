@@ -1,10 +1,12 @@
 # Biohub Cell Tracking Research Log
 
-**A publication-safe Everything AI Co research note on 3D cell lineage tracking, reproducible scientific ML, and Kaggle bioimage analysis.**
+**An Everything AI Co research note on 3D cell lineage tracking, applied scientific ML, and Kaggle bioimage analysis.**
 
-This repository summarizes our work on Kaggle's `biohub-cell-tracking-during-development` competition. It is written as a public research log rather than a code dump: the goal is to document the scientific reasoning, failure modes, validation problems, and release boundaries behind a high-performing cell-tracking workflow.
+This repository summarizes our work on Kaggle's `biohub-cell-tracking-during-development` competition. It is written as a public research log rather than a code dump: the goal is to document the scientific reasoning, failure modes, validation problems, and release boundaries behind our cell-tracking experiments and community-pipeline adaptations.
 
 This repository is the publication-safe research summary. The fuller technical closeout archive is now public at https://github.com/EVERYTHINGAICO/biohub-cell-tracking-closeout. This public summary does **not** redistribute competition data, generated outputs, model weights, credentials, or private logs.
+
+These are two views of the same Biohub project, not independent research projects. The closeout archive contains local experiment scripts and technical records; this repository provides the narrative, limitations, and negative-result summaries.
 
 ## Related Repositories
 
@@ -71,7 +73,9 @@ This public archive contributes:
 - a reproducibility and release-boundary template for active Kaggle competitions;
 - a case study in fast adaptation to late public-SOTA notebooks without redistributing sensitive artifacts.
 
-It does not claim novelty for public Kaggle models created by other authors. See [docs/ATTRIBUTION_PUBLIC.md](docs/ATTRIBUTION_PUBLIC.md).
+Local contributions include experiments, metric reconstruction, post-processing evaluation, adaptation, and research documentation. The final submission depends on community notebooks, models, and datasets; this archive does not claim their invention or an independently developed state-of-the-art model. See [docs/ATTRIBUTION_PUBLIC.md](docs/ATTRIBUTION_PUBLIC.md).
+
+Reproducibility is partial. This summary has no runnable pipeline, and the linked technical archive excludes the final notebook, competition data, and model weights. The available code, metadata, source links, and reported results provide traceability, but not a self-contained, dependency-pinned end-to-end reproduction.
 
 ## Document Map
 
@@ -84,7 +88,7 @@ It does not claim novelty for public Kaggle models created by other authors. See
 | [What Was Missing](docs/WHAT_WAS_MISSING.md) | Specific capabilities that separated our July ceiling from later `0.94+` public pipelines. |
 | [Why Later Pipelines Improved](docs/WHY_LATER_PIPELINES_IMPROVED.md) | Scientific explanation for the late jump from `0.896` to `0.944`. |
 | [Threats to Validity](docs/THREATS_TO_VALIDITY.md) | Risks from sparse labels, leaderboard feedback, external assets, and hidden tests. |
-| [Publication Boundaries](docs/PUBLICATION_BOUNDARIES.md) | What is public now vs private until closeout review. |
+| [Publication Boundaries](docs/PUBLICATION_BOUNDARIES.md) | Current public scope and artifacts excluded from GitHub. |
 
 ## What Is Public Here
 
@@ -95,10 +99,10 @@ It does not claim novelty for public Kaggle models created by other authors. See
 - Publication boundaries.
 - Public asset names and provenance at a non-redistributive level.
 
-## What Remains Private
+## What Is Not Included Here
 
-- Active submission code.
-- Copied public notebooks.
+- Experiment code is in the linked public technical archive, not this summary.
+- The final adapted notebook is linked on Kaggle; copied notebooks are not included here.
 - Generated submission CSVs and outputs.
 - Competition data.
 - Model weights and private datasets.
@@ -106,7 +110,7 @@ It does not claim novelty for public Kaggle models created by other authors. See
 
 ## Everything AI Co Positioning
 
-Everything AI Co builds auditable AI workflows for complex technical domains: agent governance, reproducible research, quantitative systems, and scientific machine learning. This project demonstrates our approach to rigorous AI experimentation: document assumptions, preserve negative results, separate public claims from private artifacts, and move fast when the public baseline changes.
+Everything AI Co develops research software across agent governance, quantitative research, data engineering, and scientific machine learning. This project documents applied ML experiments and community-model adaptation: assumptions, negative results, metric limitations, source attribution, and reported competition outcomes.
 
 ## Keywords
 
